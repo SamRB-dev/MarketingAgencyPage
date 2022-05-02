@@ -1,4 +1,4 @@
-A fully customized single page website with mobile UI for representing a marketing agency, ALLIES for brand awareness.
+A fully customized single page website with simple mobile UI for representing a marketing agency, ALLIES for brand awareness.
 
 # Overview:
 This project is me trying to solve some design issues in the existing website which I encountered
