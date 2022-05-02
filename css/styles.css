@@ -1,0 +1,476 @@
+/* 
+    * Units
+    * 1rem = 16px
+    * 1vh = 10px
+*/
+
+/* Desktop UI */
+* {
+    margin: 2% 3%;
+    padding: 0;
+    font-family: 'Akshar', sans-serif;
+    cursor: url("/icons/cursor.png"), auto;
+}
+
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* outline:#00FF00 3px solid; */
+
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav a {
+    /* Margin and Padding */
+    margin: 2%;
+    padding: 5px 10px;
+    /* padding: top-bottom right-left */
+    /* Texts and Fonts */
+    text-decoration: none;
+    font-size: 110%;
+    /* Colors */
+    color: #979595;
+}
+
+.nav a:hover {
+    color: #c1bebe;
+}
+
+.logo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.text {
+    max-width: 75%;
+    /* margins & paddings */
+    margin-top: 6%;
+    margin-bottom: 5%;
+    padding: 15px;
+    /* colors & Fonts */
+    font-size: 6rem;
+    font-weight: 900;
+    color: #ffffff;
+    /* outline:#00FF00 3px solid; */
+}
+
+.fimg {
+    background-image: url("/assets/rainbow-six-extraction.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 50rem;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.source a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    padding: 24px 32px;
+}
+
+.source a:hover {
+    background-color: #6E0DD0;
+    color: white;
+}
+
+/* About Section */
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
+.about div:last-child {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.title {
+    font-size: 6.5rem;
+    color: #fffefe;
+    opacity: 0.5;
+    margin-bottom: -6%;
+    padding-top: 20px;
+}
+
+
+.marks {
+    width: 60%;
+    height: auto;
+    padding: 8px;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+.about-next {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-next .image {
+    display: flex;
+    justify-content: center;
+}
+
+.about-next .image img {
+    width: 80%;
+}
+
+.logo2 {
+    font-size: 3rem;
+}
+
+/* Audience [About]  */
+.card {
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    width: 28%;
+    height: 23rem;
+    box-shadow: 3px 3px 3px white;
+    /* margin,padding & border*/
+    padding: 5px;
+    border-radius: 8px;
+    /* Transition */
+    transition-property: margin-top;
+    transition-duration: 550ms;
+    transition-timing-function: ease-in;
+}
+
+.item:hover {
+    margin-top: -10px;
+    font-size: 1.2rem;
+    overflow: scroll;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30%;
+    color: #00FF00;
+    text-shadow: 0 0 2px white;
+}
+
+.item p {
+    color: white;
+}
+
+
+/* Service Section */
+.services {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.services .serviceTitle {
+    margin-bottom: 3%;
+    font-size: 5rem;
+}
+
+/* Service Cards */
+.what-we-do {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.service {
+    width: 25%;
+    height: 23rem;
+    box-shadow: 4px 4px 6px white;
+    padding: 5px;
+    border-radius: 8px;
+    /* Transition */
+    transition-property: margin-top;
+    transition-duration: 550ms;
+    transition-timing-function: ease-in;
+}
+
+.service p {
+    font-size: 1.2rem;
+    color: white;
+}
+
+.service:hover {
+    margin-top: -10px;
+    border-radius: 8px;
+}
+
+/* Client Section */
+.clients {
+    display: flex;
+    flex-direction: column;
+}
+
+.clients .clientTitle {
+    margin-bottom: 3%;
+    text-align: right;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.client {
+    width: 15%;
+}
+
+/* Office Section */
+.offices {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.offices .officeTitle {
+    margin-bottom: 3%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: 20%;
+}
+
+.map {
+    width: 45%;
+    height: 35rem;
+    font-size: 2.5rem;
+    /* Background */
+    background-image: url("/assets/gibraltar.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Margin,padding & border */
+    padding: 10px;
+    color: white;
+    /* Display */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.contact .contactTitle {
+    margin-bottom: 3%;
+}
+
+.contact {
+    margin-bottom: 5%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.content .header {
+    width: 60%;
+    height: auto;
+    padding: 8px;
+    color: #ffffff;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.prompt {
+    width: 60%;
+    height: auto;
+    padding: 8px;
+    color: #ffffff;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom:5px;
+}
+
+.prompt h2 {
+    margin-bottom: 0;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hrLine {
+    width: 100%;
+    border: #00FF00 2px solid;
+}
+
+.jump {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    padding: 5px;
+    border: #00FF00 4px solid;
+}
+
+.logoNtoc {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    width: 100%;
+}
+
+.toc {
+    color:white;
+    text-align: center;  
+}
+
+/* Mobile UI */
+
+/* Screen size 360px+ */
+@media screen and (min-width: 360px) and (max-width: 480px) {
+
+    * {
+        margin: 2% 2%;
+        padding: 0;
+    }
+
+    .head {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .head h1 {
+        margin-left: -1%;
+    }
+
+    .nav {
+        order: 1;
+        margin-left: -1%;
+        position: sticky;
+    }
+
+    .nav a {
+        margin-left: 2px;
+        font-size: 80%;
+        border: #00FF00 1px solid;
+        color: #c1bebe;
+    }
+
+    .text {
+        width: 48%;
+        word-wrap: normal;
+        font-size: 1.5rem;
+        margin-top: 25vh;
+    }
+
+    .fimg {
+        background-image: url("/assets/rainbow-six-extraction-mobile.jpg");
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        height: 55vh;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .source a {
+        padding: 7px 20px;
+        background-color: #6E0DD0;
+        color: white;
+        font-size: 1rem;
+    }
+
+    .about {
+        margin-left: 10%;
+        margin-right: 10%;
+        gap:25px;
+    }
+
+    .about div:last-child {
+        display: block;
+    }
+
+    .title {
+        font-size: 2.5rem;
+        margin-top: 30%;
+        margin-bottom:4%;
+    }
+
+    .marks {
+        width: auto;
+        margin-bottom: 15%;
+    }
+
+    .about-next .image img {
+        height: 40vh;
+        margin-bottom:15%;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item {
+        width:80%;
+    }
+
+    .services .serviceTitle {
+        font-size: 1.5rem;
+    }
+
+    .what-we-do {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:20px;
+    }
+
+    .service {
+        width:80%;
+    }
+
+    .client {
+        width:30%;
+    }
+
+    .map {
+        height:11rem;
+        font-size: 1rem;
+    }
+
+    .content .header {
+        font-size:1rem;
+    }
+
+    .prompt h1 {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .jump {
+        width:7%;
+        height:7%;
+        padding:10px;
+    }
+    
+}
