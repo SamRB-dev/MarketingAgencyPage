@@ -1,4 +1,9 @@
-A single page website for representing a marketing agency, ALLIES for brand awareness.
+A fully customized single page website with cross platform UI for representing a marketing agency, ALLIES for brand awareness.
+
+# Overview:
+This project is me trying to solve some design issues in the existing website which I encountered
+during my investigation of the page UI elements. It's not 100% perfect but I tried my best to solve
+some issues as I could as a beginner while learning the full capacity of Github, git & netlify :D
 
 # Build with:
 * HTML
@@ -38,8 +43,6 @@ A single page website for representing a marketing agency, ALLIES for brand awar
         [1]: Implemented media queries for responsive mobile UI for screen width of 360px minimum.
         [2]: All card layouts customized for mobile UI.
         [3]: Column based Card layouts.
-
-
 * Drawbacks:
     [1]: 
         Since I still don't know Js that well, I tried to implement everything with pure css. 
@@ -61,4 +64,4 @@ A single page website for representing a marketing agency, ALLIES for brand awar
 
 
 # Project in Action:
-* Link: 
+* Link: https://alliesmarketing.netlify.app/
