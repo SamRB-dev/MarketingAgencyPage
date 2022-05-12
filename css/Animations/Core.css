@@ -1,0 +1,31 @@
+@keyframes Slide-In-Top {
+	from {
+		transform: translateY(-200%);
+		overflow: hidden;
+	}
+	
+	to {
+		transform: translateY(0%);
+		overflow: hidden;
+	}
+}
+
+@keyframes Slide-In-Left {
+        from {
+            transform: translateX(-200%);
+        }
+        
+        to {
+            transform: translateX(0%);
+        }
+}
+    
+@keyframes Slide-In-Right {
+        from {
+            transform: translateX(100%);
+        }
+    
+        to {
+            transform: translateX(0%);
+        }
+}
