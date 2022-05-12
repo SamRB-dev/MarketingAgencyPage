@@ -23,14 +23,14 @@ some issues as I could as a beginner while learning the full capacity of Github,
     done which can be seen after selecting elements.
 
 ## Drawbacks: 
-    Although the demo contains beautiful effects on various elements, there are some issues in the demo regarding the responsiveness and functionalities. For instance,
-## Issue[1]: 
-                The SVG animated backgrounds used in the demo doesn't always fully load
-                on mobile devices [even with good internet connections] which creates a lot 
-                of blank spaces on the page. 
-## Issue[2]: 
-                The second small navigation menu after the gaming championship images 
-                doesn't work properly on mobile devices [at least didn't work on my end tbh].
+Although the demo contains beautiful effects on various elements, there are some issues in the demo regarding the responsiveness and functionalities. For instance,
+#### Issue[1]: 
+The SVG animated backgrounds used in the demo doesn't always fully load
+on mobile devices [even with good internet connections] which creates a lot 
+of blank spaces on the page. 
+#### Issue[2]: 
+The second small navigation menu after the gaming championship images 
+doesn't work properly on mobile devices [at least didn't work on my end tbh].
  
 # My UI:
 ## What I tried: 
