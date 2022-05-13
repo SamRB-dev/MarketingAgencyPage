@@ -15,12 +15,12 @@ some issues as I could as a beginner while learning the full capacity of Github,
 
 # Analysis of The Demo:
 ## Insight: 
-    In this demo, the developer used many cool animation and effects which are purely made with Js.
-    The backgrounds are made with animated SVG which moves when the page is being scrolled. 
-    Navs are beautifully made with hover transition effects and the fonts are made with 3D animations. 
-    Most of the animations are being rendered in real time which can be noticed in CPU performance monitor 
-    while being in the page. Even when selecting elements like texts or emails, RGB blink animation is 
-    done which can be seen after selecting elements.
+In this demo, the developer used many cool animation and effects which are purely made with Js.
+The backgrounds are made with animated SVG which moves when the page is being scrolled. 
+Navs are beautifully made with hover transition effects and the fonts are made with 3D animations. 
+Most of the animations are being rendered in real time which can be noticed in CPU performance monitor 
+while being in the page. Even when selecting elements like texts or emails, RGB blink animation is 
+done which can be seen after selecting elements.
 
 ## Drawbacks: 
 Although the demo contains beautiful effects on various elements, there are some issues in the demo regarding the responsiveness and functionalities. For instance,
@@ -48,7 +48,7 @@ doesn't work properly on mobile devices [at least didn't work on my end tbh].
 ### Drawbacks:
 * [1]: 
         Since I still don't know Js that well, I tried to implement everything with pure css :').
-        
+
 * [2]:
         Since This is my first time using media queries, there might be some design flaws on mobile
         devices with wider screen resolutions. For Instance,
