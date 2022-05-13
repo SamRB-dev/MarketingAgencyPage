@@ -38,6 +38,7 @@ doesn't work properly on mobile devices [at least didn't work on my end tbh].
 * [1]: Took Desktop First approach. The main UI was actually focussed on Desktop environments.
 * [2]: Implemented Card layouts one secondary menus with hover effects and transitions.
 * [3]: Stripped secondary svg backgrounds for fast loading.
+* [4]: CPU friendly animations with keyframes **[Includes mobile support].**
 
 ### **[Mobile]**:
 * [1]: Implemented media queries for responsive mobile UI for screen width of 360px minimum.
