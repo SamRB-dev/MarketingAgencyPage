@@ -1,3 +1,6 @@
+/* Importing Custom Animation file */
+@import url("/css/Animations/Core.css");
+
 /* 
     * Units
     * 1rem = 16px
@@ -60,7 +63,8 @@
     font-size: 6rem;
     font-weight: 900;
     color: #ffffff;
-    /* outline:#00FF00 3px solid; */
+    /* Animation */
+    animation: Slide-In-Left 3s ease-in 1;
 }
 
 .fimg {
@@ -103,6 +107,7 @@
     opacity: 0.5;
     margin-bottom: -6%;
     padding-top: 20px;
+    animation: Slide-In-Left 3s ease-in 1;
 }
 
 
@@ -112,6 +117,7 @@
     padding: 8px;
     color: #ffffff;
     font-size: 1.5rem;
+    animation: Slide-In-Right 3s ease-in 1;
 }
 
 .about-next {
@@ -127,6 +133,7 @@
 
 .about-next .image img {
     width: 80%;
+    animation: Slide-In-Top 600ms ease-in 1;
 }
 
 .logo2 {
@@ -180,6 +187,7 @@ h2 {
 .services .serviceTitle {
     margin-bottom: 3%;
     font-size: 5rem;
+    animation: Slide-In-Left 3s ease-in 1;
 }
 
 /* Service Cards */
@@ -222,6 +230,7 @@ h2 {
 .clients .clientTitle {
     margin-bottom: 3%;
     text-align: right;
+    animation: Slide-In-Right 3s ease-in 1;
 }
 
 .list {
@@ -231,6 +240,7 @@ h2 {
     align-items: center;
     flex-wrap: wrap;
     gap: 30px;
+    animation: Slide-In-Left 500ms ease-in 1;
 }
 
 .client {
@@ -247,6 +257,7 @@ h2 {
 
 .offices .officeTitle {
     margin-bottom: 3%;
+    animation: Slide-In-Left 3s ease-in 1;
 }
 
 .wrapper {
@@ -271,10 +282,12 @@ h2 {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    animation: Slide-In-Right 1s ease-in 1;
 }
 
 .contact .contactTitle {
     margin-bottom: 3%;
+    animation: Slide-In-Left 3s ease-in 1;
 }
 
 .contact {
@@ -285,6 +298,7 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    animation: Slide-In-Right 2s ease-in 1;
 }
 
 .content .header {
