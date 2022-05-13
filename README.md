@@ -48,12 +48,12 @@ doesn't work properly on mobile devices [at least didn't work on my end tbh].
 ### Drawbacks:
 * [1]: 
         Since I still don't know Js that well, I tried to implement everything with pure css :').
-
+        
 * [2]:
         Since This is my first time using media queries, there might be some design flaws on mobile
         devices with wider screen resolutions. For Instance,
-        [I]: background-image placement.
-        [II]: Stretched Images.
+        * [I]: background-image placement.
+        * [II]: Stretched Images.
 * [3]:
         No Tablet or iPad UI support.
         
